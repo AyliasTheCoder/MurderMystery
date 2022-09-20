@@ -1,0 +1,34 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 3
+npc:
+  '3':
+    name: ???
+    uuid: 06b6f499-bca0-4c82-9567-3f334a24c1bf
+    traits:
+      type: PLAYER
+    traitnames: type,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    name: ???
+    uuid: bb6dd212-b9b1-457f-8130-4d0c80714676
+    traits:
+      type: PLAYER
+    traitnames: type,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    name: ???
+    uuid: 61f1b908-e5f2-4f17-bc58-838be89b5f79
+    traits:
+      type: PLAYER
+    traitnames: type,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

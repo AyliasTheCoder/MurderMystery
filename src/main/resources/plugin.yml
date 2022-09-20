@@ -1,0 +1,17 @@
+name: MurderMystery
+version: 1.0
+author: Aylias
+main: me.aylias.plugins.dotwav.mm.Main
+api-version: 1.17
+depend: [ ]
+commands:
+  startgame:
+    usage: /startgame
+  stopgame:
+    usage: /stopgame
+  giveitem:
+    usage: /giveitem index
+  body:
+    usage: /body
+  spawntestnpc:
+    usage: /spawntestnpc

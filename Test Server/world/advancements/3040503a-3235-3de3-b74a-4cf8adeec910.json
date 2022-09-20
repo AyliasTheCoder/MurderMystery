@@ -1,0 +1,84 @@
+{
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2022-09-14 16:19:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2022-09-14 16:19:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2022-09-14 16:19:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2022-09-14 16:19:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2022-09-14 16:36:35 -0600"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2022-09-14 16:36:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2022-09-14 16:19:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2022-09-14 16:19:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2022-09-14 16:19:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2022-09-14 16:20:55 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:deep_ocean": "2022-09-14 16:36:16 -0600",
+      "minecraft:savanna_plateau": "2022-09-14 16:19:09 -0600",
+      "minecraft:lukewarm_ocean": "2022-09-14 16:18:45 -0600",
+      "minecraft:river": "2022-09-14 16:19:37 -0600",
+      "minecraft:stony_shore": "2022-09-14 16:16:41 -0600",
+      "minecraft:forest": "2022-09-14 16:20:17 -0600",
+      "minecraft:ocean": "2022-09-14 16:36:13 -0600",
+      "minecraft:deep_lukewarm_ocean": "2022-09-14 16:36:02 -0600",
+      "minecraft:savanna": "2022-09-14 16:17:32 -0600",
+      "minecraft:plains": "2022-09-14 16:19:41 -0600"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2022-09-14 16:23:44 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}
