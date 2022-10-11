@@ -1,4 +1,379 @@
-[05:36:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 38866240ms or 777324 ticks behind
-[07:53:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8148471ms or 162969 ticks behind
-[09:28:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21590ms or 431 ticks behind
-[11:10:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6073643ms or 121472 ticks behind
+[09:24:30] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:24:30] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[09:24:32] [Worker-Main-4/INFO]: Loaded 7 recipes
+[09:24:33] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[09:24:33] [Server thread/INFO]: Loading properties
+[09:24:33] [Server thread/INFO]: This server is running Paper version git-Paper-388 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: fc9ee65 on ver/1.18.2)
+[09:24:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:24:33] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:24:33] [Server thread/INFO]: Default game type: SURVIVAL
+[09:24:33] [Server thread/INFO]: Generating keypair
+[09:24:33] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:24:33] [Server thread/INFO]: Using default channel type
+[09:24:33] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[09:24:33] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[09:24:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:24:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:24:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:24:33] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:24:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:24:33] [Server thread/INFO]: Preparing level "world"
+[09:24:33] [Server thread/ERROR]: Could not set generator for default world 'world': Plugin 'SCP3008' does not exist
+[09:24:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:24:41] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[09:24:41] [Server thread/INFO]: Time elapsed: 309 ms
+[09:24:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[09:24:41] [Server thread/INFO]: Time elapsed: 255 ms
+[09:24:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[09:24:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[09:24:42] [Server thread/INFO]: Time elapsed: 499 ms
+[09:24:42] [Server thread/INFO]: Running delayed init tasks
+[09:24:42] [Server thread/INFO]: Done (9.096s)! For help, type "help"
+[09:24:42] [Server thread/INFO]: Timings Reset
+[09:25:45] [User Authenticator #1/INFO]: UUID of player AyliasTheCoder is 5af22c4e-1f37-3658-bee9-a86a597922d3
+[09:25:45] [Server thread/INFO]: AyliasTheCoder joined the game
+[09:25:45] [Server thread/INFO]: AyliasTheCoder[/127.0.0.1:50935] logged in with entity id 328 at ([world]-6.5, 64.0, 7.5)
+[09:25:56] [User Authenticator #1/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[09:25:56] [Server thread/INFO]: Bot1 joined the game
+[09:25:56] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:50939] logged in with entity id 475 at ([world]9.5, 66.0, 4.5)
+[09:27:45] [Server thread/INFO]: AyliasTheCoder issued server command: /tp Bot1
+[09:27:45] [Server thread/INFO]: [AyliasTheCoder: Teleported AyliasTheCoder to Bot1]
+[09:27:45] [Server thread/WARN]: AyliasTheCoder moved too quickly! 16.48754880215791,2.0,0.3715183715066672
+[09:27:58] [Async Chat Thread - #0/INFO]: <AyliasTheCoder> test
+[09:28:36] [Async Chat Thread - #0/INFO]: <AyliasTheCoder> hello
+[09:28:52] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[09:28:52] [Server thread/INFO]: Bot1 left the game
+[09:29:01] [User Authenticator #2/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[09:29:01] [Server thread/INFO]: Bot1 joined the game
+[09:29:01] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:54870] logged in with entity id 796 at ([world]11.55153603505298, 65.0, 4.249897087175967)
+[09:29:10] [Async Chat Thread - #0/INFO]: <AyliasTheCoder> test
+[09:36:27] [Async Chat Thread - #1/INFO]: <Bot1> hello
+[09:36:31] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[09:36:31] [Server thread/INFO]: Bot1 left the game
+[09:36:35] [User Authenticator #3/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[09:36:35] [Server thread/INFO]: Bot1 joined the game
+[09:36:35] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:55059] logged in with entity id 1567 at ([world]11.55153603505298, 65.0, 4.249897087175967)
+[09:36:45] [Server thread/INFO]: AyliasTheCoder was slain by Zombie
+[09:36:59] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[09:36:59] [Server thread/INFO]: Bot1 left the game
+[09:37:03] [User Authenticator #3/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[09:37:03] [Server thread/INFO]: Bot1 joined the game
+[09:37:03] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:55084] logged in with entity id 1608 at ([world]13.063793252076277, 64.0, 4.7)
+[09:37:12] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[09:37:12] [Server thread/INFO]: Bot1 left the game
+[09:37:15] [User Authenticator #3/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[09:37:15] [Server thread/INFO]: Bot1 joined the game
+[09:37:15] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:55095] logged in with entity id 1630 at ([world]11.948173451527278, 63.0, 0.9699068335573462)
+[09:37:18] [Server thread/INFO]: Bot1 was slain by Zombie
+[09:37:31] [Server thread/INFO]: Bot1 was slain by Zombie
+[09:42:19] [Server thread/INFO]: Bot1 was slain by Zombie
+[09:43:28] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[09:43:28] [Server thread/INFO]: Bot1 left the game
+[09:46:35] [User Authenticator #4/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[09:46:35] [Server thread/INFO]: Bot1 joined the game
+[09:46:35] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:51326] logged in with entity id 2246 at ([world]1.5, 72.0, 10.5)
+[09:47:03] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[09:47:03] [Server thread/INFO]: Bot1 left the game
+[09:47:06] [User Authenticator #4/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[09:47:06] [Server thread/INFO]: Bot1 joined the game
+[09:47:06] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:51352] logged in with entity id 2312 at ([world]1.5, 72.0, 10.5)
+[09:47:47] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[09:47:47] [Server thread/INFO]: Bot1 left the game
+[09:47:55] [User Authenticator #4/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[09:47:55] [Server thread/INFO]: Bot1 joined the game
+[09:47:55] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:51374] logged in with entity id 2378 at ([world]1.5, 72.0, 10.5)
+[09:48:06] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[09:48:06] [Server thread/INFO]: Bot1 left the game
+[09:50:06] [User Authenticator #5/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[09:50:06] [Server thread/INFO]: Bot1 joined the game
+[09:50:06] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:51456] logged in with entity id 2409 at ([world]1.5, 72.0, 10.5)
+[09:50:30] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[09:50:30] [Server thread/INFO]: Bot1 left the game
+[09:50:34] [User Authenticator #5/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[09:50:34] [Server thread/INFO]: Bot1 joined the game
+[09:50:34] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:51469] logged in with entity id 2468 at ([world]1.5, 72.0, 10.5)
+[09:54:10] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[09:54:10] [Server thread/INFO]: Bot1 left the game
+[09:54:13] [User Authenticator #6/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[09:54:13] [Server thread/INFO]: Bot1 joined the game
+[09:54:13] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:51523] logged in with entity id 2774 at ([world]1.5, 72.0, 10.5)
+[09:54:24] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[09:54:24] [Server thread/INFO]: Bot1 left the game
+[09:54:27] [User Authenticator #6/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[09:54:27] [Server thread/INFO]: Bot1 joined the game
+[09:54:27] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:51528] logged in with entity id 2789 at ([world]1.5, 72.0, 10.5)
+[09:55:50] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[09:55:50] [Server thread/INFO]: Bot1 left the game
+[09:55:53] [User Authenticator #7/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[09:55:53] [Server thread/INFO]: Bot1 joined the game
+[09:55:53] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:51592] logged in with entity id 2906 at ([world]1.5, 72.0, 10.5)
+[09:58:45] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[09:58:45] [Server thread/INFO]: Bot1 left the game
+[09:58:47] [User Authenticator #8/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[09:58:47] [Server thread/INFO]: Bot1 joined the game
+[09:58:47] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:51652] logged in with entity id 3150 at ([world]1.5, 72.0, 10.5)
+[09:59:05] [Server thread/INFO]: AyliasTheCoder issued server command: /difficulty peaceful
+[09:59:05] [Server thread/INFO]: [AyliasTheCoder: The difficulty has been set to Peaceful]
+[09:59:07] [Server thread/INFO]: AyliasTheCoder issued server command: /tp Bot1
+[09:59:07] [Server thread/INFO]: [AyliasTheCoder: Teleported AyliasTheCoder to Bot1]
+[09:59:07] [Server thread/WARN]: AyliasTheCoder moved too quickly! 9.444896901779108,8.0,3.9867563088789426
+[09:59:13] [Server thread/INFO]: AyliasTheCoder issued server command: /gamemode creative
+[09:59:13] [Server thread/INFO]: [AyliasTheCoder: Set own game mode to Creative Mode]
+[09:59:24] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[09:59:24] [Server thread/INFO]: Bot1 left the game
+[09:59:28] [User Authenticator #8/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[09:59:28] [Server thread/INFO]: Bot1 joined the game
+[09:59:28] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:51665] logged in with entity id 3195 at ([world]1.5, 72.0, 10.5)
+[10:00:58] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[10:00:58] [Server thread/INFO]: Bot1 left the game
+[10:01:00] [User Authenticator #9/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[10:01:00] [Server thread/INFO]: Bot1 joined the game
+[10:01:00] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:51725] logged in with entity id 3228 at ([world]1.5, 72.0, 10.5)
+[10:01:20] [Async Chat Thread - #2/INFO]: <Bot1> :eixt
+[10:01:23] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[10:01:23] [Server thread/INFO]: Bot1 left the game
+[10:01:26] [User Authenticator #9/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[10:01:26] [Server thread/INFO]: Bot1 joined the game
+[10:01:26] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:51739] logged in with entity id 3246 at ([world]1.7, 72.0, 10.7)
+[10:01:32] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[10:01:32] [Server thread/INFO]: Bot1 left the game
+[10:03:45] [User Authenticator #10/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[10:03:45] [Server thread/INFO]: Bot1 joined the game
+[10:03:45] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:51805] logged in with entity id 3301 at ([world]1.7, 72.0, 10.7)
+[10:04:03] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[10:04:03] [Server thread/INFO]: Bot1 left the game
+[10:04:07] [User Authenticator #10/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[10:04:07] [Server thread/INFO]: Bot1 joined the game
+[10:04:07] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:51815] logged in with entity id 3309 at ([world]1.7, 72.0, 10.7)
+[10:04:12] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[10:04:12] [Server thread/INFO]: Bot1 left the game
+[10:04:20] [User Authenticator #10/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[10:04:20] [Server thread/INFO]: Bot1 joined the game
+[10:04:20] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:51820] logged in with entity id 3319 at ([world]1.7, 72.0, 10.7)
+[10:07:27] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[10:07:27] [Server thread/INFO]: Bot1 left the game
+[10:07:29] [User Authenticator #11/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[10:07:29] [Server thread/INFO]: Bot1 joined the game
+[10:07:29] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:51886] logged in with entity id 3415 at ([world]1.7, 72.0, 10.7)
+[10:07:49] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[10:07:49] [Server thread/INFO]: Bot1 left the game
+[10:08:30] [User Authenticator #12/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[10:08:30] [Server thread/INFO]: Bot1 joined the game
+[10:08:30] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:51917] logged in with entity id 3446 at ([world]1.7, 72.0, 10.7)
+[10:11:15] [Server thread/INFO]: AyliasTheCoder issued server command: /give Bot1 minecraft:acacia_boat 1000
+[10:11:19] [Server thread/INFO]: AyliasTheCoder issued server command: /give Bot1 minecraft:acacia_boat 100
+[10:11:19] [Server thread/INFO]: [AyliasTheCoder: Gave 100 [Acacia Boat] to Bot1]
+[10:11:49] [Server thread/INFO]: AyliasTheCoder issued server command: /clear Bot1
+[10:11:49] [Server thread/INFO]: [AyliasTheCoder: Removed 540 items from player Bot1]
+[10:11:51] [Server thread/INFO]: AyliasTheCoder issued server command: /clear Bot1
+[10:11:51] [Server thread/INFO]: [AyliasTheCoder: Removed 36 items from player Bot1]
+[10:11:51] [Server thread/INFO]: AyliasTheCoder issued server command: /clear Bot1
+[10:11:51] [Server thread/INFO]: [AyliasTheCoder: Removed 36 items from player Bot1]
+[10:11:53] [Server thread/INFO]: AyliasTheCoder issued server command: /clear Bot1
+[10:11:53] [Server thread/INFO]: [AyliasTheCoder: Removed 1 items from player Bot1]
+[10:12:35] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[10:12:35] [Server thread/INFO]: Bot1 left the game
+[10:12:47] [User Authenticator #13/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[10:12:47] [Server thread/INFO]: Bot1 joined the game
+[10:12:47] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:52045] logged in with entity id 3674 at ([world]1.7, 64.0, 10.7)
+[10:13:17] [Server thread/INFO]: Bot1 lost connection: Timed out
+[10:13:17] [Server thread/INFO]: Bot1 left the game
+[10:13:43] [User Authenticator #13/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[10:13:43] [Server thread/INFO]: Bot1 joined the game
+[10:13:43] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:52073] logged in with entity id 3706 at ([world]1.7, 64.0, 10.7)
+[10:15:01] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[10:15:01] [Server thread/INFO]: Bot1 left the game
+[10:15:03] [User Authenticator #14/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[10:15:04] [Server thread/INFO]: Bot1 joined the game
+[10:15:04] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:52115] logged in with entity id 3748 at ([world]1.7, 64.0, 10.7)
+[10:17:43] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[10:17:43] [Server thread/INFO]: Bot1 left the game
+[10:17:46] [User Authenticator #15/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[10:17:46] [Server thread/INFO]: Bot1 joined the game
+[10:17:46] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:52202] logged in with entity id 3825 at ([world]1.7, 64.0, 10.7)
+[10:18:16] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[10:18:16] [Server thread/INFO]: Bot1 left the game
+[10:18:19] [User Authenticator #15/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[10:18:19] [Server thread/INFO]: Bot1 joined the game
+[10:18:19] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:52211] logged in with entity id 3838 at ([world]1.7, 64.0, 10.7)
+[10:19:45] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[10:19:45] [Server thread/INFO]: Bot1 left the game
+[10:22:45] [User Authenticator #16/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[10:22:45] [Server thread/INFO]: Bot1 joined the game
+[10:22:45] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:52331] logged in with entity id 3977 at ([world]1.7, 64.0, 10.7)
+[10:23:00] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[10:23:00] [Server thread/INFO]: Bot1 left the game
+[10:23:18] [User Authenticator #16/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[10:23:18] [Server thread/INFO]: Bot1 joined the game
+[10:23:18] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:52348] logged in with entity id 3988 at ([world]1.7, 64.0, 10.7)
+[10:24:13] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[10:24:13] [Server thread/INFO]: Bot1 left the game
+[10:24:15] [User Authenticator #16/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[10:24:16] [Server thread/INFO]: Bot1 joined the game
+[10:24:16] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:52375] logged in with entity id 4010 at ([world]1.7, 64.0, 10.7)
+[10:24:32] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[10:24:32] [Server thread/INFO]: Bot1 left the game
+[10:27:11] [User Authenticator #17/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[10:27:11] [Server thread/INFO]: Bot1 joined the game
+[10:27:11] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:52484] logged in with entity id 4089 at ([world]1.7, 64.0, 10.7)
+[10:27:36] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[10:27:36] [Server thread/INFO]: Bot1 left the game
+[10:27:38] [User Authenticator #17/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[10:27:38] [Server thread/INFO]: Bot1 joined the game
+[10:27:38] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:52495] logged in with entity id 4102 at ([world]1.7, 64.0, 10.7)
+[10:28:10] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[10:28:10] [Server thread/INFO]: Bot1 left the game
+[10:28:13] [User Authenticator #17/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[10:28:13] [Server thread/INFO]: Bot1 joined the game
+[10:28:13] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:52570] logged in with entity id 4126 at ([world]1.7, 64.0, 10.7)
+[10:30:21] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[10:30:21] [Server thread/INFO]: Bot1 left the game
+[10:30:25] [User Authenticator #18/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[10:30:25] [Server thread/INFO]: Bot1 joined the game
+[10:30:25] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:52634] logged in with entity id 4193 at ([world]1.7, 64.0, 10.7)
+[10:30:56] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[10:30:56] [Server thread/INFO]: Bot1 left the game
+[10:30:58] [User Authenticator #18/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[10:30:58] [Server thread/INFO]: Bot1 joined the game
+[10:30:58] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:52646] logged in with entity id 4214 at ([world]1.7, 64.0, 10.7)
+[10:31:17] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[10:31:17] [Server thread/INFO]: Bot1 left the game
+[10:31:29] [User Authenticator #18/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[10:31:29] [Server thread/INFO]: Bot1 joined the game
+[10:31:29] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:52655] logged in with entity id 4227 at ([world]1.7, 64.0, 10.7)
+[10:31:42] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[10:31:42] [Server thread/INFO]: Bot1 left the game
+[10:37:48] [User Authenticator #19/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[10:37:49] [Server thread/INFO]: Bot1 joined the game
+[10:37:49] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:52778] logged in with entity id 4414 at ([world]1.7, 64.0, 10.7)
+[10:38:03] [Async Chat Thread - #3/INFO]: <AyliasTheCoder> Hello
+[10:39:59] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[10:39:59] [Server thread/INFO]: Bot1 left the game
+[10:40:19] [User Authenticator #20/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[10:40:19] [Server thread/INFO]: Bot1 joined the game
+[10:40:19] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:52834] logged in with entity id 4483 at ([world]1.7, 64.0, 11.7)
+[10:40:59] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[10:40:59] [Server thread/INFO]: Bot1 left the game
+[10:41:02] [User Authenticator #20/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[10:41:02] [Server thread/INFO]: Bot1 joined the game
+[10:41:02] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:52853] logged in with entity id 4508 at ([world]1.7, 64.0, 11.7)
+[10:42:03] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[10:42:03] [Server thread/INFO]: Bot1 left the game
+[10:42:06] [User Authenticator #21/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[10:42:06] [Server thread/INFO]: Bot1 joined the game
+[10:42:06] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:52863] logged in with entity id 4537 at ([world]1.7, 64.0, 11.7)
+[10:42:50] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[10:42:50] [Server thread/INFO]: Bot1 left the game
+[10:42:52] [User Authenticator #21/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[10:42:52] [Server thread/INFO]: Bot1 joined the game
+[10:42:52] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:52877] logged in with entity id 4557 at ([world]1.7, 64.0, 11.7)
+[10:44:41] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[10:44:41] [Server thread/INFO]: Bot1 left the game
+[10:44:43] [User Authenticator #22/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[10:44:43] [Server thread/INFO]: Bot1 joined the game
+[10:44:43] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:52929] logged in with entity id 4618 at ([world]1.7, 64.0, 11.7)
+[10:45:59] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[10:45:59] [Server thread/INFO]: Bot1 left the game
+[10:46:01] [User Authenticator #23/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[10:46:01] [Server thread/INFO]: Bot1 joined the game
+[10:46:01] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:52970] logged in with entity id 4647 at ([world]1.7, 64.0, 11.7)
+[11:25:07] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[11:25:07] [Server thread/INFO]: Bot1 left the game
+[11:32:15] [User Authenticator #24/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[11:32:15] [Server thread/INFO]: Bot1 joined the game
+[11:32:15] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:54872] logged in with entity id 5951 at ([world]1.7, 64.0, 11.7)
+[11:32:25] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[11:32:25] [Server thread/INFO]: Bot1 left the game
+[11:32:33] [User Authenticator #24/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[11:32:33] [Server thread/INFO]: Bot1 joined the game
+[11:32:33] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:54879] logged in with entity id 5962 at ([world]1.7, 64.0, 11.7)
+[11:33:17] [Server thread/INFO]: AyliasTheCoder issued server command: /tp 100 100 100
+[11:33:17] [Server thread/INFO]: [AyliasTheCoder: Teleported AyliasTheCoder to 100.500000, 100.000000, 100.500000]
+[11:33:17] [Server thread/WARN]: AyliasTheCoder moved too quickly! 64.57093599666774,25.935888880328847,52.487321882006675
+[11:33:23] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[11:33:23] [Server thread/INFO]: Bot1 left the game
+[11:33:43] [User Authenticator #25/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[11:33:43] [Server thread/INFO]: Bot1 joined the game
+[11:33:43] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:54904] logged in with entity id 6103 at ([world]42.12532429602062, 65.0, 51.7)
+[11:34:13] [Server thread/INFO]: AyliasTheCoder issued server command: /tp Bot1
+[11:34:13] [Server thread/INFO]: [AyliasTheCoder: Teleported AyliasTheCoder to Bot1]
+[11:34:26] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[11:34:26] [Server thread/INFO]: Bot1 left the game
+[11:40:13] [User Authenticator #26/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[11:40:13] [Server thread/INFO]: Bot1 joined the game
+[11:40:13] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:55027] logged in with entity id 6267 at ([world]43.823142886287904, 60.0, 49.9665416269089)
+[11:40:49] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[11:40:49] [Server thread/INFO]: Bot1 left the game
+[11:41:23] [User Authenticator #27/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[11:41:23] [Server thread/INFO]: Bot1 joined the game
+[11:41:23] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:55047] logged in with entity id 6293 at ([world]43.823142886287904, 60.0, 49.9665416269089)
+[11:41:34] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[11:41:34] [Server thread/INFO]: Bot1 left the game
+[11:42:09] [User Authenticator #27/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[11:42:09] [Server thread/INFO]: Bot1 joined the game
+[11:42:09] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:55065] logged in with entity id 6315 at ([world]43.823142886287904, 60.0, 49.9665416269089)
+[11:42:38] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[11:42:38] [Server thread/INFO]: Bot1 left the game
+[11:42:41] [User Authenticator #27/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[11:42:41] [Server thread/INFO]: Bot1 joined the game
+[11:42:41] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:55078] logged in with entity id 6331 at ([world]43.823142886287904, 60.0, 49.9665416269089)
+[11:42:53] [Async Chat Thread - #4/INFO]: <Bot1> Found 1 oak_log(s)
+[11:44:09] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[11:44:09] [Server thread/INFO]: Bot1 left the game
+[11:44:11] [User Authenticator #28/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[11:44:11] [Server thread/INFO]: Bot1 joined the game
+[11:44:11] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:55154] logged in with entity id 6362 at ([world]44.3, 59.0, 49.74139126827456)
+[11:44:51] [Server thread/INFO]: AyliasTheCoder issued server command: /kick Bot1
+[11:44:51] [Server thread/INFO]: Bot1 lost connection: Kicked by an operator
+[11:44:51] [Server thread/INFO]: Bot1 left the game
+[11:44:51] [Server thread/INFO]: [AyliasTheCoder: Kicked Bot1: Kicked by an operator]
+[11:44:58] [User Authenticator #28/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[11:44:58] [Server thread/INFO]: Bot1 joined the game
+[11:44:58] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:55177] logged in with entity id 6391 at ([world]44.3, 59.0, 49.74139126827456)
+[11:45:30] [Async Chat Thread - #5/INFO]: <Bot1> Found 1 diamond_ore(s)
+[11:45:43] [Server thread/INFO]: AyliasTheCoder issued server command: /give Bot1 diamond_shovel
+[11:45:43] [Server thread/INFO]: [AyliasTheCoder: Gave 1 [Diamond Shovel] to Bot1]
+[11:45:54] [Server thread/INFO]: AyliasTheCoder issued server command: /give Bot1 minecraft:diamond_pickaxe
+[11:45:54] [Server thread/INFO]: [AyliasTheCoder: Gave 1 [Diamond Pickaxe] to Bot1]
+[11:46:02] [Server thread/INFO]: Bot1 has made the advancement [Stone Age]
+[11:46:42] [Server thread/INFO]: AyliasTheCoder issued server command: /gamemode spectator
+[11:46:42] [Server thread/INFO]: [AyliasTheCoder: Set own game mode to Spectator Mode]
+[11:47:02] [Server thread/INFO]: AyliasTheCoder issued server command: /gamemode creative
+[11:47:02] [Server thread/INFO]: [AyliasTheCoder: Set own game mode to Creative Mode]
+[11:47:29] [Async Chat Thread - #6/INFO]: <Bot1> Found 1 diamond_ore(s)
+[11:47:39] [Server thread/INFO]: AyliasTheCoder issued server command: /gamemode spectator
+[11:47:39] [Server thread/INFO]: [AyliasTheCoder: Set own game mode to Spectator Mode]
+[11:48:46] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[11:48:46] [Server thread/INFO]: Bot1 left the game
+[11:49:16] [User Authenticator #29/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[11:49:16] [Server thread/INFO]: Bot1 joined the game
+[11:49:16] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:55227] logged in with entity id 6510 at ([world]59.5, 11.0, 50.553402495021)
+[11:49:21] [Async Chat Thread - #7/INFO]: <Bot1> :naviage
+[11:50:30] [Server thread/INFO]: AyliasTheCoder issued server command: /give Bot1 cobblestone 100
+[11:50:30] [Server thread/INFO]: [AyliasTheCoder: Gave 100 [Cobblestone] to Bot1]
+[11:50:32] [Server thread/INFO]: AyliasTheCoder issued server command: /give Bot1 cobblestone 100
+[11:50:32] [Server thread/INFO]: [AyliasTheCoder: Gave 100 [Cobblestone] to Bot1]
+[11:50:33] [Server thread/INFO]: AyliasTheCoder issued server command: /give Bot1 cobblestone 100
+[11:50:33] [Server thread/INFO]: [AyliasTheCoder: Gave 100 [Cobblestone] to Bot1]
+[11:52:28] [Server thread/INFO]: AyliasTheCoder issued server command: /gamemode creative
+[11:52:28] [Server thread/INFO]: [AyliasTheCoder: Set own game mode to Creative Mode]
+[11:53:03] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[11:53:03] [Server thread/INFO]: Bot1 left the game
+[11:53:17] [User Authenticator #30/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[11:53:17] [Server thread/INFO]: Bot1 joined the game
+[11:53:17] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:62084] logged in with entity id 6633 at ([world]62.5, 15.0, 60.64998795930496)
+[12:08:46] [Server thread/WARN]: Bot1 was kicked due to keepalive timeout!
+[12:08:46] [Server thread/INFO]: Bot1 lost connection: Timed out
+[12:08:46] [Server thread/INFO]: Bot1 left the game
+[12:21:18] [User Authenticator #31/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[12:21:18] [Server thread/INFO]: Bot1 joined the game
+[12:21:18] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:51333] logged in with entity id 7072 at ([world]62.5, 15.0, 60.64998795930496)
+[12:21:20] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[12:21:20] [Server thread/INFO]: Bot1 left the game
+[12:21:40] [User Authenticator #31/INFO]: UUID of player Bot1 is 51a4b33d-8b80-3bde-806f-de4086b03058
+[12:21:40] [Server thread/INFO]: Bot1 joined the game
+[12:21:40] [Server thread/INFO]: Bot1[/[0:0:0:0:0:0:0:1]:51344] logged in with entity id 7079 at ([world]62.5, 15.0, 60.64998795930496)
+[12:23:28] [Server thread/INFO]: Bot1 lost connection: Disconnected
+[12:23:28] [Server thread/INFO]: Bot1 left the game
+[12:23:38] [Server thread/INFO]: AyliasTheCoder lost connection: Disconnected
+[12:23:38] [Server thread/INFO]: AyliasTheCoder left the game
